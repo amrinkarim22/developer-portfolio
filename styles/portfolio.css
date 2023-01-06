@@ -1,4 +1,4 @@
-*{
+*{  padding: 0;
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
@@ -24,6 +24,7 @@ nav{
 .nav-title{
     font-weight: 800;
     font: optional 45px;
+    font-size: 40px;
 }
 nav ul{
     display: flex;
@@ -34,7 +35,12 @@ nav li{
     list-style: none;
     margin-left: 50px;
 }
+.hardy-bhai{
+    padding-left: 70px;
+    object-position: 100pt;
+}
 .button-orange{
+    width: 147px;
     height: 64px;
     border-radius: 5px;
     background-color: #FD6E0A;
@@ -113,6 +119,7 @@ main{
 .about-info-container{
     display: flex;
     justify-content: space-around;
+    
 }
 
 .info-title{
@@ -159,4 +166,75 @@ main{
 }
 .section-title{
     margin-top: 130px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.resume-content{
+    display: flex;
+    font-size: 30px;
+    font-weight: 700;
+    gap: 24px;
+
+
+}
+.resume .title{
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+   
+   
+
+}
+
+.resume .subtitle{
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+
+}
+.resume .description{
+    font-size: 16px;
+   font-weight: 400;
+   color: #757575;
+
+
+}
+.resume-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.resume-button{
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 130px;
+}
+.contact{
+    display: flex;
+    gap: 115px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+
+}
+.contact .section-title{
+    text-align: left;
+}
+
+.contact input[type="text"], input[type="email"], textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+
+
+}
+input{
+    height: 64px;
+
+}
+.contact a{
+    text-decoration: none;
+    word-spacing: 8px;
 }
